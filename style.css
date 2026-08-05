@@ -232,19 +232,24 @@ section h2::after{
 
 .social{
     text-align:center;
-    margin:30px 0;
+    margin-top:20px;
 }
 
 .social a{
+    display:inline-block;
+    margin:10px;
+    padding:10px 20px;
+    background:#E53935;
+    color:white;
     text-decoration:none;
-    margin:0 15px;
-    color:#E53935;
+    border-radius:25px;
     font-weight:bold;
-    font-size:18px;
+    transition:0.3s;
 }
 
 .social a:hover{
-    color:black;
+    background:black;
+    transform:translateY(-3px);
 }
 
 #stats{
@@ -467,4 +472,26 @@ nav{
     width:90%;
 }
 
+}
+
+.social-links{
+    margin-top:20px;
+}
+
+.social-links a{
+    display:inline-block;
+    margin-right:15px;
+    margin-top:10px;
+    padding:10px 20px;
+    background:#E53935;
+    color:white;
+    text-decoration:none;
+    border-radius:25px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.social-links a:hover{
+    background:black;
+    transform:translateY(-3px);
 }
