@@ -95,6 +95,14 @@ nav a{
     height:300px;
     object-fit:cover;
     border-radius:50%;
+    border:6px solid #E53935;
+    box-shadow:0 0 25px rgba(229,57,53,0.5);
+    transition:0.4s;
+}
+
+.hero-image img:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 40px rgba(229,57,53,0.8);
 }
 
 #about{
@@ -578,17 +586,47 @@ nav{
 }
 
 .hire-btn{
-    display:inline-block;
-    padding:12px 25px;
-    background:#ff4d4d;
-    color:#fff;
+    background:#ff9800;
+    color:white !important;
     text-decoration:none;
-    border-radius:30px;
-    font-weight:600;
-    transition:0.3s;
 }
 
 .hire-btn:hover{
-    background:#222;
-    transform:translateY(-3px);
+    background:#ff6f00;
+}
+
+.badge{
+    display:inline-block;
+    margin:15px 0;
+    padding:8px 18px;
+    background:#d4edda;
+    color:#155724;
+    border-radius:25px;
+    font-weight:600;
+}
+
+.scroll-down{
+    margin-top:40px;
+}
+
+.scroll-down a{
+    text-decoration:none;
+    color:#E53935;
+    font-weight:bold;
+    animation:bounce 1.5s infinite;
+}
+
+@keyframes bounce{
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(10px);}
+}
+
+.badge{
+    display:inline-block;
+    margin:15px 0;
+    padding:8px 18px;
+    background:#d4edda;
+    color:#155724;
+    border-radius:25px;
+    font-weight:600;
 }
