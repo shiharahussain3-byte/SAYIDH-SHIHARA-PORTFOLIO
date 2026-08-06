@@ -54,7 +54,7 @@ nav a{
 }
 
 .hero{
-     flex-direction:column;
+    display:flex;
     justify-content:space-around;
     align-items:center;
     padding:80px;
@@ -95,8 +95,6 @@ nav a{
     height:300px;
     object-fit:cover;
     border-radius:50%;
-    border:5px solid #E53935;
-    box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
 
 #about{
@@ -494,4 +492,87 @@ nav{
 .social-links a:hover{
     background:black;
     transform:translateY(-3px);
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top:25px;
+}
+
+.hero-buttons .btn{
+    text-decoration:none;
+    padding:12px 24px;
+    border-radius:30px;
+}
+
+.contact-form{
+    max-width:600px;
+    margin:40px auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding:15px;
+    border:2px solid #E53935;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    border-color:black;
+}
+
+.contact-form button{
+    width:220px;
+    margin:auto;
+}
+
+.contact-form{
+    max-width:600px;
+    margin:30px auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+    font-family:'Poppins',sans-serif;
+}
+
+.contact-form button{
+    background:#ff4d4d;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.contact-form button:hover{
+    background:#e63b3b;
+    transform:translateY(-2px);
+}
+
+#visitors{
+    text-align:center;
+    padding:40px 20px;
+}
+
+#visitors h2{
+    color:#ff4d4d;
+    margin-bottom:20px;
 }
