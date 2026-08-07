@@ -580,16 +580,6 @@ nav{
     transform:translateY(-2px);
 }
 
-#visitors{
-    text-align:center;
-    padding:40px 20px;
-}
-
-#visitors h2{
-    color:#ff4d4d;
-    margin-bottom:20px;
-}
-
 .hire-btn{
     background:#ff9800;
     color:white !important;
